@@ -1,0 +1,3 @@
+name = "Standard ML"
+grammar = "sml"
+path_suffixes = ["sml", "sig"]
