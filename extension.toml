@@ -1,0 +1,15 @@
+id = "sml"
+name = "Standard ML"
+version = "0.0.1"
+schema_version = 1
+authors = ["Omar Jatoi <git@omarjatoi.com>"]
+description = "Standard ML language support for Zed"
+repository = "https://github.com/omarjatoi/zed-sml"
+
+[language_servers.sml-language-server]
+name = "millet"
+language = "SML"
+
+[grammars.sml]
+repository = "https://github.com/MatthewFluet/tree-sitter-sml"
+commit = "105585ae935d8662ab61ce2f5479c35d2b1e456e"
