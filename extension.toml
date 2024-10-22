@@ -6,9 +6,9 @@ authors = ["Omar Jatoi <git@omarjatoi.com>"]
 description = "Standard ML language support for Zed"
 repository = "https://github.com/omarjatoi/zed-sml"
 
-[language_servers.sml-language-server]
-name = "millet"
-language = "SML"
+[language_servers.millet-ls]
+name = "millet-ls"
+language = "Standard ML"
 
 [grammars.sml]
 repository = "https://github.com/MatthewFluet/tree-sitter-sml"
