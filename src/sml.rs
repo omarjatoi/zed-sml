@@ -39,6 +39,7 @@ impl SMLExtension {
             arch = match arch {
                 zed::Architecture::Aarch64 => "aarch64",
                 zed::Architecture::X8664 => "x86_64",
+                zed::Architecture::X86 => "x86",
             },
             os = match platform {
                 zed::Os::Mac => "apple-darwin",
