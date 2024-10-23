@@ -5,6 +5,13 @@ This extension adds Standard ML language support to the [Zed](https://zed.dev) t
 - Tree Sitter: [tree-sitter-sml](https://github.com/MatthewFluet/tree-sitter-sml)
 - Language Server: [millet](https://github.com/azdavis/millet)
 
+## Known Issues
+
+There are currently a few known issues, primarily with the language server integration in this extension:
+
+- Formatting is currently not working
+- Project diagnostics do not auto resolve
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License");
