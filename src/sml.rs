@@ -51,7 +51,7 @@ impl zed::Extension for SMLExtension {
         let initialization_options = MilletInitOptions {
             token_hover: true,
             fs_watcher: true,
-            format: "smlfmt".to_owned(),
+            format: "none".to_owned(),
             diagnostics: Diagnostics {
                 on_change: true,
                 more_info_hint: true,
