@@ -12,6 +12,19 @@ There are currently a few known issues, primarily with the language server integ
 - Formatting is currently not working
 - Project diagnostics do not auto resolve
 
+You can disable the language server by configuring Zed:
+```json
+{
+  ...
+  "languages": {
+    "Standard ML": {
+      "enable_language_server": false
+    },
+    ...
+  }
+}
+```
+
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License");
