@@ -9,19 +9,34 @@ This extension adds Standard ML language support to the [Zed](https://zed.dev) t
 
 There are currently a few known issues, primarily with the language server integration in this extension:
 
-- Formatting is currently not working
+- Formatting with millet does not currently work (see below to use `smlfmt` directory)
 - Project diagnostics do not auto resolve
 
 You can disable the language server by configuring Zed:
+
 ```json
 {
-  ...
   "languages": {
     "Standard ML": {
       "enable_language_server": false
-    },
-    ...
+    }
   }
+}
+```
+
+You can also configure Zed to use [`smlfmt`](https://github.com/shwestrick/smlfmt) to format your buffer when you save. Install `smlfmt` and make sure it's accessible in your path, and add the following configuration:
+
+```json
+{
+  "languages": {
+    "Standard ML": {
+      "enable_language_server": false,
+      "formatter": {
+        "external": {
+          "command": "smlfmt"
+        }
+      }
+    }
 }
 ```
 
