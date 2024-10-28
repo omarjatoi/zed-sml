@@ -1,6 +1,6 @@
 id = "sml"
 name = "Standard ML"
-version = "0.0.1"
+version = "0.1.0"
 schema_version = 1
 authors = ["Omar Jatoi <git@omarjatoi.com>"]
 description = "Standard ML language support for Zed"
