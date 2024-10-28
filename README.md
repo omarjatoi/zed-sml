@@ -9,7 +9,7 @@ This extension adds Standard ML language support to the [Zed](https://zed.dev) t
 
 There are currently a few known issues, primarily with the language server integration in this extension:
 
-- Formatting with millet does not currently work (see below to use `smlfmt` directory)
+- Formatting with millet does not currently work (see below to use `smlfmt` as an external formatter configured in Zed)
 - Project diagnostics do not auto resolve
 
 You can disable the language server by configuring Zed:
