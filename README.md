@@ -37,6 +37,7 @@ You can also configure Zed to use [`smlfmt`](https://github.com/shwestrick/smlfm
         }
       }
     }
+  }
 }
 ```
 
